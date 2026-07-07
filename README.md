@@ -4,13 +4,13 @@ Computational epigenomics, transcriptomics & bioinformatics. I build **reproduci
 
 ## 🔬 Featured pipelines
 
-### [oracle-rna-seq] (https://github.com/challagandla/oracle-rna-seq)
+### [oracle-rna-seq](https://github.com/challagandla/oracle-rna-seq)
 RNA-seq analysis pipeline — STAR alignment, DESeq2 differential expression, and GSEA, driven by a metadata-defined experimental design with multi-species support (human / mouse / rat).
 
 ### [oracle-chip-seq](https://github.com/challagandla/oracle-chip-seq)
 Histone ChIP-seq differential-binding pipeline — QC and contamination screening, Bowtie2 alignment, MACS2 broad-peak calling, DiffBind differential binding, open-source motif enrichment (monaLisa + JASPAR), and a unified MultiQC report.
 
-### [oracle-atac-seq (https://github.com/challagandla/oracle-atac-seq)
+### [oracle-atac-seq](https://github.com/challagandla/oracle-atac-seq)
 It takes raw paired-end FASTQs (or SRA accessions) all the way to differential chromatin accessibility, peak annotation, transcription-factor motif enrichment, and TF footprinting with a single MultiQC report tying the QC together.
 
 
