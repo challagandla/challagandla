@@ -13,6 +13,11 @@ Histone ChIP-seq differential-binding pipeline — QC and contamination screenin
 ### [oracle-atac-seq](https://github.com/challagandla/oracle-atac-seq)
 It takes raw paired-end FASTQs (or SRA accessions) all the way to differential chromatin accessibility, peak annotation, transcription-factor motif enrichment, and TF footprinting with a single MultiQC report tying the QC together.
 
+###[oracle-scrna-seq](https://github.com/challagandla/oracle-scrna-seq)
+End-to-end single-cell RNA-seq analysis pipeline
+
+###[oracle-hichip-seq](https://github.com/challagandla/oracle-hichip-seq)
+End-to-end HiChIP processing
 
 All belongs to **ORACLE**, a suite of reproducible, method-cited genomics workflows I maintain.
 
