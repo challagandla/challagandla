@@ -1,16 +1,20 @@
 # Anil Challagandla
 
-Computational genomics & bioinformatics. I build **reproducible, end-to-end NGS analysis pipelines** (Snakemake + conda) that take raw sequencing data all the way to publication-ready results — pinned per-step environments and CI so a run is portable from a single workstation to an HPC cluster.
+Computational epigenomics, transcriptomics & bioinformatics. I build **reproducible, end-to-end NGS analysis pipelines** (Snakemake + conda) that take raw sequencing data all the way to publication-ready results — pinned per-step environments and CI so a run is portable from a single workstation to an HPC cluster.
 
 ## 🔬 Featured pipelines
 
-### [oracle-rnaseq](https://github.com/challagandla/oracle-rnaseq)
+### [oracle-rna-seq] (https://github.com/challagandla/oracle-rna-seq)
 RNA-seq analysis pipeline — STAR alignment, DESeq2 differential expression, and GSEA, driven by a metadata-defined experimental design with multi-species support (human / mouse / rat).
 
-### [oracle-histone-chip](https://github.com/challagandla/oracle-histone-chip)
+### [oracle-chip-seq](https://github.com/challagandla/oracle-chip-seq)
 Histone ChIP-seq differential-binding pipeline — QC and contamination screening, Bowtie2 alignment, MACS2 broad-peak calling, DiffBind differential binding, open-source motif enrichment (monaLisa + JASPAR), and a unified MultiQC report.
 
-Both belong to **ORACLE**, a suite of reproducible, method-cited genomics workflows I maintain.
+### [oracle-atac-seq (https://github.com/challagandla/oracle-atac-seq)
+It takes raw paired-end FASTQs (or SRA accessions) all the way to differential chromatin accessibility, peak annotation, transcription-factor motif enrichment, and TF footprinting with a single MultiQC report tying the QC together.
+
+
+All belongs to **ORACLE**, a suite of reproducible, method-cited genomics workflows I maintain.
 
 ## 🛠️ Toolbox
 
